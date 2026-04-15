@@ -1,0 +1,645 @@
+ul{
+    list-style: none;
+}
+.navbar-nav .nav-link.active{
+    color: #fdaf4b !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #fdaf4b !important;
+
+}
+section{
+    padding: 70px 0;
+}
+
+.experience-box {
+    background-color: #FFA500;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+}
+.service-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.service-icons div {
+    text-align: center;
+}
+
+
+
+
+
+.home_slide{
+    background-image: url(./img/carousel-2.jpg);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.home_slide::before{
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.581);
+}
+
+.home_slide .container-md{
+    position: relative;
+}
+.home_slide .text h2 {
+    font-size: 20px;
+    color: white;
+}
+.home_slide .text p {
+    font-size: 84px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 20px 0;
+    color: white;
+}
+.home_slide .text ul li{
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+}
+
+
+/* start about  */
+
+
+
+.aboutus .container-md .left img{
+height: 492px;
+width: 492px;
+padding: 0 20px;
+}
+.aboutus .left {
+    position: relative;
+    padding: 48px 0 0 48px;
+  
+}
+
+.head .text{
+    position: relative;
+    padding-left: 10px;
+}
+.container-md .left{
+    position: relative;
+}
+  .container-md .left .info{
+    width: 150px;
+    height: 150px;
+    background-color: #fdaf4b;
+    text-align: center;
+    position: absolute;
+    top: -20px;
+    border: 30px solid white;
+    box-sizing: content-box;
+}
+
+ .container-md .left .info .text h3{
+display: flex;
+flex-direction: column;
+}
+ .text .head .text h6{
+    color: #888;
+}
+ .text .head .text p{
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.2;
+}
+ .text .content{
+    color: #888;
+    padding-bottom: 25px;
+}
+ .text .content .border{
+    padding-top: 50px;
+
+}
+
+ .text .row i{
+    font-size: 40px;
+    color: #fda12b;
+}
+/* end about  */
+
+
+/* start gallary  */
+
+
+.gallary .img{
+    width:360px;
+    height: 300px;
+}
+.gallary .box {
+position: relative;
+}
+.gallary .box .text{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 0 30px;
+    font-weight: bold;
+}
+.gallary .box .text h2{
+    -webkit-text-stroke: 2px #fdaf4b;
+    color: transparent;
+    font-size: 120px;
+}
+.gallary .box .text h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.gallary .box .text p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.gallary .box .text a{
+    color: white;
+     color: inherit;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s;
+}
+.gallary .box .text a:hover{
+    color: #fda12b;
+    transition: 0.3s;
+}
+.our a{
+    color: inherit !important;
+text-decoration: none !important;
+color: #fda12b !important;
+}
+
+
+/* end gallary  */
+
+/* start our  */
+.our .head .text p{
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.our{
+    margin-top: 20em;
+}
+.cards{
+    display: flex;
+gap: 20px;
+
+}
+.card-body:hover{
+    background-color: #fda12b;
+    color: white;
+}
+.card-body:hover a{
+    color: white !important
+    ;
+}
+
+/* end our  */
+
+
+
+/* end services  */
+
+
+
+
+/* srart former  */
+.former{
+    background-image: url(./img/carousel-2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white
+}
+.form::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.former .text{
+    width: 450px;
+}
+.former .text .head .text h6{
+    color: white;
+}
+ .former .text .head{
+    margin-top: 20px;
+}
+.former .text .head .text p{
+    color: white;
+    font-size: 38px;
+}
+.former .text .content p{
+padding-top: 30px;
+    color: white;
+}
+.former .container-md{
+margin-top: 5em;
+display: flex;
+}
+.allformer{
+    display: flex;
+}
+.appointment-form {
+    width: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    margin-left: 150px;
+}
+
+.form-group {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 48%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: #182333;
+}
+
+.textarea-field {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    height: 100px;
+  background-color: #182333;
+}
+
+.appointment-btn {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.appointment-btn:hover {
+    background-color: #ff9900;
+}
+/* end former  */
+
+
+/* start team  */
+.team{
+    margin-top: 70px;
+}
+.team .container-lg{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.team .container-lg .boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.team .head .text::before {
+    content: "";
+    position: absolute;
+    border-left: 5px solid #fda12b;
+    height: 100%;
+    left: 0;
+}
+.team .head {
+    position: relative;
+    padding: 0 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.team .head h6 {
+    color: #888;
+}
+.team .head p {
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.team .head .secound p{
+    font-size: 16px;
+    color: #888;
+    width: 610px;
+    height: 70px;
+}
+
+
+.team .box{
+    width: 30%;
+    background-image: url(./img/fact-1.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.team .text h5, p{
+    transition: 0.5s;
+}
+
+
+.team .text{
+    position: absolute;
+    background-color: white;
+    left: 0;
+    top: 300px;
+    width: 60%;
+    transition: 0.5s;
+}
+.team .text:hover{
+    width: 100%;
+}
+.team .container-lg .boxes .text:hover h5, .team .container-lg .boxes .text:hover p{
+    letter-spacing: 3px;
+
+}
+
+
+/* .team .img .text:hover {
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    padding: 15px 20px;
+    width: 70%;
+    transition: 0.5s
+} */
+
+/* end team 
+/* start test  */
+ 
+.test .container-md{
+    display:flex;
+   justify-content: space-between;
+}
+.test{
+    display: flex;
+}
+.test .row{
+    width: 40%;
+}
+.test .row .icon{
+    display: flex;
+    
+
+}
+.test .container-md .left{
+    width: 60%;
+}
+.test .row .icon i{
+    font-size: 30px;
+    color: #fda12b;
+}
+.test .row .icon h6{
+    font-size: 40px;
+}
+.test .row p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.test .right .icon i{
+    font-size: 16px;
+    border-radius: 50%;
+    border: 1px solid #fda12b;
+    padding: 13px 15px;
+    color: #888;
+    margin-right: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+/* end test  */
+
+
+
+/* start footer  */
+
+
+.footer {
+    background-color: #1e2a38;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    width: 22%;
+}
+
+.logo-section h2 {
+    font-size: 24px;
+    color: #ff8c00;
+    margin-bottom: 15px;
+}
+
+.logo-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    background-color: #ff8c00;
+}
+
+.address-section h4, .quick-links h4, .newsletter h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.address-section p, .quick-links ul li a {
+    font-size: 14px;
+    line-height: 2;
+    color: #ccc;
+}
+
+.quick-links ul {
+    list-style-type: none;
+}
+
+.quick-links ul li a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.quick-links ul li a:hover {
+    color: #ff8c00;
+}
+
+.newsletter p {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.newsletter-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.newsletter-btn {
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.newsletter-btn:hover {
+    background-color: #ff9900;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #444;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-section form{
+    display: flex;
+    gap: 20px;
+}
+/* end footer  */
+
+
+
+
+/* start h_aboutUs  */
+.img_aboutUs{
+background-image: url(./img/carousel-1.jpg);
+    height: 300px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+
+
+}
+.img_aboutUs::before{
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.581);
+}
+.img_aboutUs .text_about{
+    position: relative;
+}
+.head_about{
+    font-size: 54px;
+    font-weight: bold;
+    color: white;
+}
+
+.text_about{
+    display: flex;
+    padding-top: 80px ;
+    padding-right: 30px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_about ul{
+    display: flex;
+    gap: 20px;
+}
+
+.text_about ul li a{
+    text-decoration: none;
+    color: white;
+}
+.text_about ul span  li a{
+    color: #fda12b;
+}
+/* end h_aboutUs  */
+
+
+
+
+/* start responsive  */
+
+
+@media (max-width:630px)
+{
+
+    .aboutus .container-md .left img{
+        display: none;
+    }
+    .container-md .left .info{
+        display: none;
+    }
+    .gallary .box{
+        display: flex;
+        flex-direction: column;
+    }
+    
+.footer-container {
+display: flex;
+text-align: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.test .container-md{
+    display:flex;
+text-align: center;
+align-items: center;
+flex-direction: column;
+}
+
+}
+
+
+
+
+
+
+
+
+/* end responsive  */
